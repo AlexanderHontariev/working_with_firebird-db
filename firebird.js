@@ -31,6 +31,20 @@ module.exports = function(req, res) {
 				throw err;
 			}
 				console.log(result);
+
+				/*
+					{ "TIMES":"2017-04-14T05:52:39.684Z",
+					  "TYPES":1,
+					  "LATITUDE":51.466400146484375,
+					  "LONGITUDE":22.68263053894043,
+					  "PEAKCURRENT":-13351,
+					  "ICHEIGHT":10212,
+					  "NUMSENSORS":12,
+					  "ICMULTIPLICITY":2,
+					  "CGMULTIPLICITY":0
+					}
+				*/
+
 				res.send(result);
 				db.detach(); // close connection
 			});
