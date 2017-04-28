@@ -1,0 +1,22 @@
+{
+  "name": "db-working",
+  "version": "0.0.0",
+  "description": "Пример получения данных из базы",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderHontariev/working_with_firebird-db.git"
+  },
+  "author": "Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderHontariev/working_with_firebird-db/issues"
+  },
+  "homepage": "https://github.com/AlexanderHontariev/working_with_firebird-db#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
